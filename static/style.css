@@ -1,0 +1,79 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container to hold all content */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width as needed */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 20px; /* Spacing below the header */
+}
+
+/* Main section styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+/* Styling for the form container */
+form {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+}
+
+/* Styling for input fields */
+input[type="text"] {
+    width: calc(100% - 22px); /* Full width minus padding and border */
+    padding: 10px;
+    margin-bottom: 15px; /* Space between fields */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px; /* Space above the button */
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px; /* Space above the footer */
+}
